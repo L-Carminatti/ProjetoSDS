@@ -1,12 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 * {
-
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
+html, body{
 
-    color: blue;
-    
+    background-color: #ddd;
 }
+
+header{
+
+    background-color: #4d41c0;
+    color: #fff;
+}
+
+a, a:hover{
+
+    text-decoration: none;
+    color: unset;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
